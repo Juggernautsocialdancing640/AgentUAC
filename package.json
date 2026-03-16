@@ -1,0 +1,23 @@
+{
+  "name": "agent-uac",
+  "version": "1.0.0",
+  "description": "User Account Control for AI - Runtime security interception and approval layer",
+  "main": "dist/register.js",
+  "bin": {
+    "uac": "./bin/uac.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/test-agent.js"
+  },
+  "keywords": ["uac", "security", "ai", "agent", "sandbox"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
